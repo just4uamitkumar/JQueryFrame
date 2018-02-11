@@ -1,0 +1,34 @@
+<div class="wrapper">
+
+  <!-- Start Sidebar -->
+  <div class="sidebar">  
+    <div class="panel">
+      <a class="level1 has-child" href="javascript:void(0)">
+        <i class="fa fa-bell" aria-hidden="true"></i><span>Tabs/Accordion</span>
+      </a>
+      <div class="collapse">
+          <a href="tabs.shtml" class="level2">Tabs</a>
+          <a href="accordion.shtml" class="level2">Accordion</a>
+          <a href="ResponsiveTabs.shtml" class="level2">Responsive Tabs</a>
+      </div>
+      <a href="dashSlider.shtml" class="level1">
+        <i class="fa fa-bell" aria-hidden="true"></i><span>DashBoard Slider</span>
+      </a>    
+      <a href="tooltip.shtml" class="level1">
+        <i class="fa fa-bell" aria-hidden="true"></i><span>Tooltip</span>
+      </a>
+      <a href="FormValidation.shtml" class="level1">
+        <i class="fa fa-bell" aria-hidden="true"></i><span>Form Validation</span>
+      </a>
+      <a href="table.shtml" class="level1">
+          <i class="fa fa-bell" aria-hidden="true"></i>
+          <span>Table</span>
+      </a>
+      
+    </div>
+  </div>
+  <!-- End Sidebar -->
+
+  <!-- Start Content div  -->
+  <div class="content">
+   

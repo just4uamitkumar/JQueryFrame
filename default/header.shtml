@@ -1,0 +1,47 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=4.0, user-scalable=yes">
+<link type="image/x-icon" rel="shortcut icon" href="./images/favicon.ico">
+<link rel="stylesheet" href="./css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/style.css">
+
+<!-- For progressively larger displays -->
+<link rel="stylesheet" media="only screen and (max-width: 992px)" href="./css/992.css">
+<link rel="stylesheet" media="only screen and (max-width: 768px)" href="./css/768.css">
+</head>
+<body>
+
+<header>
+	<div class="logo"><a href="index.shtml">JQuery Framework</a></div>
+
+	
+
+	<div class='header-right'>
+		<!-- Start Nav -->
+    <div class="nav">
+        <ul>
+                <li><a href="javascript:void(0);">Menu Item 1</a></li>
+                <li class="hasNav"><a href="javascript:void(0);">Menu Item 2</a>
+                    <ul class="level2">
+                        <li><a href="javascript:void(0);">Menu Item A</a></li>
+                        <li><a href="javascript:void(0);">Menu Item B</a></li>
+                        <li><a href="javascript:void(0);">Menu Item C</a></li>
+                        <li><a href="javascript:void(0);">Menu Item D</a></li>
+                        <li><a href="javascript:void(0);">Menu Item E</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0);">Menu Item 3</a></li>
+                <li class="hasNav"><a href="javascript:void(0);">Menu Item 4</a>
+                     <ul class="level2">
+                        <li><a href="javascript:void(0);">Menu Item a</a></li>
+                        <li><a href="javascript:void(0);">Menu Item b</a></li>
+                        <li><a href="javascript:void(0);">Menu Item c</a></li>
+                        <li><a href="javascript:void(0);">Menu Item d</a></li>
+                        <li><a href="javascript:void(0);">Menu Item e</a></li>
+                    </ul>
+                </li>
+                
+            </ul>       
+    </div>
+    <!-- End Nav div -->
+		<a class="sidebar-toggle" href="javascript:void(0)"><i class="fa fa-bars" aria-hidden="true"></i></a>
+	</div>	
+</header>

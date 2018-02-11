@@ -1,0 +1,13 @@
+	</div>
+	<!--end Content div -->
+</div>
+<!--end Footer div -->
+
+
+<!--Start all Javascript -->
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/main.js"></script>
+<!-- end all Javascript -->
+
+</body>
+</html>

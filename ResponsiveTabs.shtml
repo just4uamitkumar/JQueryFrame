@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Responsive Tabs</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<div class="row">
+
+    <!-- Start First Accordion Section -->
+    <div class="col-sm-12">
+        <div class="ResTabs">
+            <ul>
+                <li><a href="javascript:void(0)" data-tab="dataTab-1" class="tablinks">Google</a></li>
+                <li><a href="javascript:void(0)" data-tab="dataTab-2" class="tablinks">Facebook</a></li>
+                <li><a href="javascript:void(0)" data-tab="dataTab-3" class="tablinks">Twitter</a></li>
+                <li><a href="javascript:void(0)" data-tab="dataTab-4" class="tablinks">Infosys</a></li>
+                <li><a href="javascript:void(0)" data-tab="dataTab-5" class="tablinks">Microsoft</a></li>
+                <li><a href="javascript:void(0)" data-tab="dataTab-6" class="tablinks">Apple</a></li>
+            </ul>
+        </div>
+        <div class="tab-Kent">
+            <div class="tabKent" id="dataTab-1">
+                <h3>Behind the scenes at Google</h3>
+                <p>We are delighted to announce a Search Conference for Indian language publishers. This will be a five-day five-city event in July dedicated to publishers who publish websites in Indian languages. If you are such a publisher, this is the opportunity you may not want to miss.
+                In this day-long conference, members of the Google Search Quality team will talk about a host of topics including how Search works, tips for better visibility of Indian language websites in Google Search, best practices for mobile-friendly websites, Google’s Search quality guidelines and a bunch of other important things. These presentations will be delivered in the Hindi language.
+                </p>
+            </div>
+
+            <div class="tabKent" id="dataTab-2">
+                <h3>Facebook gradually added support</h3>
+                <p>Facebook is an American for-profit corporation and an online social media and social networking service based in Menlo Park, California. The Facebook website was launched on February 4, 2004, by Mark Zuckerberg, along with fellow Harvard College students and roommates, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.</p>
+            </div>
+
+            <div class="tabKent" id="dataTab-3">
+                <h3>Getting started with Twitter</h3>
+                <p>Twitter is the place to find out about what’s happening in the world right now. Whether you’re interested in music, sports, politics, news, celebrities, or everyday moments—come to Twitter to see and join in on what’s happening now. While everyone experiences Twitter differently, here are a few areas that might interest you to help you get started.</p>
+            </div>
+
+            <div class="tabKent" id="dataTab-4">
+                <h3>Infosys Speak</h3>
+                <p>We seek to innovate in a way that minimizes the gap between our offerings and client needs, until both are at zero distance from one another. For us, innovation is a quest for a client problem that is as yet unarticulated, or finding that surprisingly innovative way to execute a solution to a known problem. Infosys Nia is a knowledge-based AI platform. It brings machine learning together with the deep knowledge of an organization to drive automation and innovation.</p>
+            </div>
+
+            <div class="tabKent" id="dataTab-5">
+                <h3>Microsoft Corporation</h3>
+                <p>Microsoft Corporation is an American multinational technology company headquartered in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and services.</p>
+            </div>
+
+            <div class="tabKent" id="dataTab-6">
+                <h3>The history of Apple</h3>
+                <p>n this feature we tell the story of Apple. We start with the early days, the tale of how Apple was founded, moving on through the Apple I, to the Apple II, the launch of the Macintosh and the revolution in the DTP industry... To the tech-industry behemoth that we know and love today.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End First Accordion Section -->
+
+    <!-- Start Second Accordion Section -->
+    <div class="col-sm-12">
+        
+    </div>
+    <!-- End Second Accordion Section -->
+
+   
+</div>
+<!-- end row div -->
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

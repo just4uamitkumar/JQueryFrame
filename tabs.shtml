@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Tabs</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<div class="row">
+
+    <!-- Start Tab Section -->
+    <div class="col-sm-6">
+        <div class="tabs">
+            <ul>
+                <li><a href="javascript:void(0);" tab-id="first-tab" class="active">First Tab</a></li>
+                <li><a href="javascript:void(0);" tab-id="second-tab">Second Tab</a></li>
+                <li><a href="javascript:void(0);" tab-id="third-tab">Third Tab</a></li>
+                <li><a href="javascript:void(0);" tab-id="fourth-tab">Fourth Tab</a></li>
+            </ul>
+        </div>
+
+        <div class="tabCont">
+            <div class="tabWrapper active" id="first-tab">
+                <h4>First Tab</h4>
+                <p>Through our partnership with Infosys and with this Zero Distance Initiative, we were able to solve this complex problem that the utility’s been facing for some time... Beyond the millions of dollars that we're going to be saving here at APS, the benefit is truly with our end customers in having a system that's going to be flexible and nimble and meet all of their needs.</p>
+            </div>
+
+            <div class="tabWrapper" id="second-tab">
+                <h4>Second Tab</h4>
+                <p>Infosys and APS jointly developed a parallel sustainability program to independently and automatically test a new product release without impacting the current product. This enabled the customer to save millions and accelerate to market.</p>
+            </div>
+
+            <div class="tabWrapper" id="third-tab">
+                <h4>Third Tab</h4>
+                <p>We started hoping to mine our 8,000+ current client projects for innovation,” said Ravi Kumar S., EVP & Chief Delivery Officer for Infosys, a leading tech consulting and IT services firm. “After looking at 4 or 5, we got excited because we’d found numerous ways to improve client outcomes,” he continued. “Also, we realized it would take a decade to review the rest of them.</p>
+            </div>
+
+            <div class="tabWrapper" id="fourth-tab">
+                <h4>Fourth Tab</h4>
+                <p>One of my extraordinary early findings was the lack of initiative, lack of proactivity in the services industry. Not only at Infosys, but everywhere… So I, along with a few key colleagues, worked with a handful of projects for a few weeks.... And the result was a simple five point pattern that could bring immediate as well as fundamental improvement to any of our projects.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Tab Section -->
+
+    <!-- Start Second Tab Section -->
+    <div class="col-sm-6">
+        <select class="tabSelect">
+            <option value="tab-1" selected>First Tab</option>
+            <option value="tab-2">Second Tab</option>
+            <option value="tab-3">Third Tab</option>
+            <option value="tab-4">Fourth Tab</option>
+        </select>
+
+        <div class="tabContainer">
+            <div class="tabWrap active" id="tab-1">
+                <h4>First Tab</h4>
+                <p>Through our partnership with Infosys and with this Zero Distance Initiative, we were able to solve this complex problem that the utility’s been facing for some time... Beyond the millions of dollars that we're going to be saving here at APS, the benefit is truly with our end customers in having a system that's going to be flexible and nimble and meet all of their needs.</p>
+            </div>
+
+            <div class="tabWrap" id="tab-2">
+                <h4>Second Tab</h4>
+                <p>Infosys and APS jointly developed a parallel sustainability program to independently and automatically test a new product release without impacting the current product. This enabled the customer to save millions and accelerate to market.</p>
+            </div>
+
+            <div class="tabWrap" id="tab-3">
+                <h4>Third Tab</h4>
+                <p>We started hoping to mine our 8,000+ current client projects for innovation,” said Ravi Kumar S., EVP & Chief Delivery Officer for Infosys, a leading tech consulting and IT services firm. “After looking at 4 or 5, we got excited because we’d found numerous ways to improve client outcomes,” he continued. “Also, we realized it would take a decade to review the rest of them.</p>
+            </div>
+
+            <div class="tabWrap" id="tab-4">
+                <h4>Fourth Tab</h4>
+                <p>One of my extraordinary early findings was the lack of initiative, lack of proactivity in the services industry. Not only at Infosys, but everywhere… So I, along with a few key colleagues, worked with a handful of projects for a few weeks.... And the result was a simple five point pattern that could bring immediate as well as fundamental improvement to any of our projects.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Tab Section -->
+
+   
+</div>
+<!-- end row div -->
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

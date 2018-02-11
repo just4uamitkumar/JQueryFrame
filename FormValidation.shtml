@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Form Validation</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<!-- Start Form Validaton -->
+<form action="/cgi-bin/test.cgi" name="myForm" onsubmit="return(validate());">
+    <div class="row">
+        <div class="col-sm-6 form-group">
+            <label>First Name</label>
+            <input class="form-control" onblur="this.placeholder = 'First Name'" onfocus="this.placeholder = ''" placeholder="First Name" type="text"  name="fname"  onkeypress="return blockSpecialChar(event)">
+        </div>
+
+        <div class="col-sm-6 form-group">
+            <label>Last Name</label>
+            <input class="form-control" onblur="this.placeholder = 'Last Name'" onfocus="this.placeholder = ''" placeholder="Last Name" type="text" name="lname">
+        </div>
+        <div class="col-sm-6 form-group">
+            <label>Username</label>
+            <input class="form-control" onblur="this.placeholder = 'Username'" onfocus="this.placeholder = ''" placeholder="Username" type="text" name="username">
+        </div>
+        <div class="col-sm-6 form-group">
+            <label>Email Address </label>
+            <input class="form-control" onblur="this.placeholder = 'Email Address'" onfocus="this.placeholder = ''" placeholder="Email Address" type="text" name="email">
+        </div>
+        <div class="col-sm-6 form-group">
+            <label>Contact Number</label>
+            <input class="form-control" onblur="this.placeholder = 'Contact Number'" onfocus="this.placeholder = ''" placeholder="Contact Number" type="text" name="phone" >
+        </div> 
+
+        <div class="col-sm-6 form-group">
+            <label>Social Interest <input type="checkbox" value="Select All"/></label>
+
+            <div class="checklist">           
+                <label class="control-label"><input type="checkbox">Facebook</label>
+                <label class="control-label"><input type="checkbox">Twitter</label>
+                <label class="control-label"><input type="checkbox">Google +</label>
+                <label class="control-label"><input type="checkbox">You Tube</label>
+                <label class="control-label"><input type="checkbox">Twitter</label>
+                <label class="control-label"><input type="checkbox">Tumbir</label>
+            </div>
+            
+        </div>            
+   
+        
+        <div class="col-sm-6 form-group">                
+            <label>Country</label>
+            <select class="form-control"  placeholder="Country" name="country">
+                <option value="-1">Select Country</option>
+                <option value="1">India</option>
+                <option value="2">China</option>
+                <option value="3">Austrailia</option>
+                <option value="4">Sri Lanka Sri Lanka Sri Lanka Sri Lanka Sri Lanka Sri Lanka Sri Lanka Sri Lanka Sri Lanka Sri Lanka Sri Lanka</option> 
+            </select>                 
+        </div>
+
+        
+
+        <div class="col-sm-6 form-group"> 
+            <label>State</label>
+            <select class="form-control"  placeholder="State" name="state">
+                <option value="-1">Select State</option>
+                <option value="1">Uttrakhand</option>
+                <option value="2">Rajasthan</option>
+                <option value="3">Kashmir</option>
+                <option value="4">Delhi</option>
+            </select>
+        </div>
+
+        <div class="col-sm-6 form-group">
+            <label>City</label>
+            <select class="form-control"  placeholder="City" name="city">
+                <option value="-1">Select City</option>
+                <option value="1">Agra</option>
+                <option value="2">Mumbai</option>
+                <option value="3">Pune</option>
+                <option value="4">Kolkata</option>
+            </select>
+        </div>
+
+        
+        
+        <div class="col-sm-6 form-group">
+            <label>ZIP Code </label>
+            <input class="form-control" onblur="this.placeholder = 'ZIP Code '" onfocus="this.placeholder = ''" placeholder="ZIP Code" type="text" name="Zip">
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-sm-12 form-group">       
+            <button type="submit" class="btn btn-success  pull-right">Submit</button>
+            <button type="reset" class="btn btn-danger pull-right m-r-5">Reset</button>
+        </div>
+
+    </div>               
+
+</form>
+<!-- End Form Validaton -->
+
+    
+
+   
+
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

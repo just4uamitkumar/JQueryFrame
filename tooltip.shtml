@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Tooltip</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<div class="row">
+
+    <!-- Start Tooltip -->
+    <div class="col-sm-6">
+        <div class="tipDiv">
+            <ul>
+                <li><a href="javascript:void(0);" data-placement="top" data-title="Tooltip to Top">Tooltip to Top</a></li>
+                <li><a href="javascript:void(0);" data-placement="right" data-title="Tooltip to Right">Tooltip to Right</a></li>
+                <li><a href="javascript:void(0);" data-placement="bottom" data-title="Tooltip to Bottom">Tooltip to Bottom</a></li>      
+                <li><a href="javascript:void(0);" data-placement="left" data-title="Tooltip to Left">Tooltip to Left</a></li>
+                
+            </ul>
+        </div>      
+    </div>
+    <!-- End Tooltip -->
+
+    <!-- Start DashBoard Slider -->
+    <div class="col-sm-6">
+        
+    </div>
+    <!-- End DashBoard Slider -->
+
+   
+</div>
+<!-- end row div -->
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

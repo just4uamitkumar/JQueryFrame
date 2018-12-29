@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Watch</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<div class="row">
+    <!-- Start Analog Clock -->
+    <div class="col-sm-6">
+        <div class="ghadi">
+            <div class="core"></div>
+            <div class="second" id="second"></div>
+            <div class="minute" id="minute"></div>
+            <div class="ghanta" id="ghanta"></div>
+            <div class="digital"></div>
+        </div> 
+    </div>
+    <!-- End Analog Clock  -->
+
+    <!-- Start Analog Clock -->
+    <div class="col-sm-6">
+        <div id="clock">
+            <div id="hour" style="transform: rotate(334.5deg);"><img src="http://demo.web3designs.com/images/hourhand.png"></div>
+            <div id="minute" style="transform: rotate(54deg);"><img src="http://demo.web3designs.com/images/minhand.png"></div>
+            <div id="second" style="transform: rotate(108deg);"><img src="http://demo.web3designs.com/images/sechand.png"></div>
+        </div>
+
+    </div>
+    <!-- End Analog Clock -->
+
+  
+
+   
+
+</div>
+<!-- end row div -->
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

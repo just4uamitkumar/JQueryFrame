@@ -18,18 +18,20 @@
 
     <!-- Start Social Slider -->
     <div class="col-sm-6">
-        <div class="SocialSlider">
-            <div class="facebook social"><span></span> <a href="javascript:void(0);"></a></div>
-            <div class="twitter social"><span></span> <a href="javascript:void(0);"></a></div>
-            <div class="google social"><span></span> <a href="javascript:void(0);"></a></div>
-            <div class="instagram social"><span></span> <a href="javascript:void(0);"></a></div>
-            <div class="youtube social"><span></span> <a href="javascript:void(0);"></a></div>
+        <div class="contentWrap">
+            <div class="SocialSlider">
+                <div class="facebook social"><span></span> <a href="javascript:void(0);"></a></div>
+                <div class="twitter social"><span></span> <a href="javascript:void(0);"></a></div>
+                <div class="google social"><span></span> <a href="javascript:void(0);"></a></div>
+                <div class="instagram social"><span></span> <a href="javascript:void(0);"></a></div>
+                <div class="youtube social"><span></span> <a href="javascript:void(0);"></a></div>
+            </div>
         </div>       
     </div>
     <!-- End Social Slider -->
 
     <!-- Start DashBoard Slider -->
-    <div class="col-sm-6">
+    <div class="col-sm-6">        
         <div class="DashSlider">
             <ul>
                 <li><a href="javascript:void(0);">First Slide</a></li>
@@ -58,11 +60,9 @@
                 <p>Suppose you have a simple unordered list on the page</p>
             </div>
             
-        </div>
+        </div>        
     </div>
     <!-- End DashBoard Slider -->
-
-   
 </div>
 <!-- end row div -->
 

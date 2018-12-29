@@ -14,117 +14,109 @@
 
 <h1></h1>
 
-<!-- Start Form Validaton -->
-<div class="table-responsive">
-    <table class="table">
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>Emp ID</th>
-                <th>Name</th>
-                <th>Designation</th>
-                <th>Experience</th>
-                <th>Technology</th>
-                <th>Rating</th>
-            </tr>            
-        </thead>
-        <tbody>
-            <tr class="headRow">
-                <td>
-                    <a href="javascript:void();" class="expandRow"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>                    
-                </td>
-                <td>5</td>
-                <td>Vinay</td>
-                <td>Deisgner</td>
-                <td>5 years</td>
-                <td>HTML</td>
-                <td>Average</td>
-            </tr>
-            <tr class="subrow">
-                <td></td>
-                <td>HTML5</td>
-                <td>CSS</td>
-                <td>JavaScript</td>
-                <td>JQuery</td>
-                <td>Photoshop</td>
-                <td>Illustrator</td>
-            </tr>
-            <tr class="subrow">
-                <td></td>
-                <td>DotNet</td>
-                <td>PHP</td>
-                <td>Photoshp</td>
-                <td>Python</td>
-                <td>Microsoft Work</td>
-                <td>Illustrator</td>
-            </tr>             
-            <tr class="headRow">
-                <td>
-                    <a href="javascript:void();" class="expandRow"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                </td>
-                <td>92</td>
-                <td>Sandeep</td>
-                <td>Developer</td>
-                <td>2 years</td>
-                <td>PHP</td>
-                <td>Good</td>
-            </tr>
-            <tr class="subrow">
-                <td></td>
-                <td>Android</td>
-                <td>Volvo</td>
-                <td>C-Shart</td>
-                <td>Photoshop</td>
-                <td>Illustrator</td>
-                <td>CSS</td>
-            </tr>
-            <tr class="subrow">
-                <td></td>
-                <td>iPhone</td>
-                <td>Material</td>
-                <td>Bootstrap</td>
-                <td>Photoshop</td>
-                <td>Foundation</td>
-                <td>CSS</td>
-            </tr>            
-            <tr class="headRow">
-                <td>
-                    <a href="javascript:void();" class="expandRow"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                </td>
-                <td>28</td>
-                <td>Govind</td>
-                <td>Deisgner</td>
-                <td>5 years</td>
-                <td>HTML</td>
-                <td>Average</td>
-            </tr>
-            <tr class="subrow">
-                <td></td>
-                <td>Bootstrap</td>
-                <td>Material</td>
-                <td>Photoshop</td>
-                <td>Photoshop</td>
-                <td>Foundation</td>
-                <td>CSS</td>
-            </tr>
-            <tr class="subrow">
-                <td></td>
-                <td>DotNet</td>
-                <td>PHP</td>
-                <td>Photoshp</td>
-                <td>Python</td>
-                <td>Microsoft Work</td>
-                <td>Illustrator</td>
-            </tr>            
-        </tbody>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="contentWrap">
+            <!-- Start Toggled Table -->
+            <div class="outerTable">
+                <div class="table-responsive">
+                    <div class="scroll">
+                        <a href="#" class="prev"><</a>
+                        <a href="#" class="next">></a>
+                    </div>
+                    <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Emp ID</th>
+                            <th>Name</th>
+                            <th>Floor Location</th>
+                            <th>Resident</th>
+                            <th>Vehicle</th>
+                            <th>Designation</th>
+                            <th>Experience</th>
+                            <th>Technology</th>
+                            <th>Rating</th>
+                        </tr>            
+                    </thead>
+                    <tbody>
+                        <tr class="headRow">
+                            <td>
+                                <a href="javascript:void();" class="expandRow"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>                    
+                            </td>
+                            <td>5</td>
+                            <td>Vinay</td>
+                            <td>Second Floor</td>
+                            <td>Kailash Colony</td>
+                            <td>Scooter</td>
+                            <td>Deisgner</td>
+                            <td>5 years</td>
+                            <td>HTML</td>
+                            <td>Average</td>
+                        </tr>
+                        <tr class="subrow">
+                            <td>1</td>
+                            <td colspan="9">England, arguably, weren't at their best today. But they have still muscled an 87-run win, cranking it up with the ball at a critical time.</td>
+                        </tr>
+                        <tr class="subrow">
+                            <td>2</td>
+                            <td colspan="9">With this, they become the first team to make it into the semis. New Zealand, who were looking strong to beat Australia before being denied by the weather, now have to beat Bangladesh</td>                
+                        </tr>             
+                        <tr class="headRow">
+                            <td>
+                                <a href="javascript:void();" class="expandRow"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                            </td>
+                            <td>7</td>
+                            <td>Sandeep</td>
+                            <td>First Floor</td>
+                            <td>Bhargava Village</td>
+                            <td>Public Transport</td>
+                            <td>Dot Net Developer</td>
+                            <td>2 years</td>
+                            <td>PHP</td>
+                            <td>Good</td>
+                        </tr>
+                        <tr class="subrow">
+                            <td>1</td>
+                            <td colspan="9">he 87-run margin is the highest for ENG in CT against a side other than ZIM. It is also the second-highest losing margin for NZ in CT after 164-run defeat against AUS in Colombo in 2002.</td>
+                        </tr>
+                        <tr class="subrow">
+                            <td>2</td>
+                            <td colspan="9">The nature of the English batting is that they bat deep. In that respect, it wasn't a bad effort with the ball.</td>                
+                        </tr>               
+                        <tr class="headRow">
+                            <td>
+                                <a href="javascript:void();" class="expandRow"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                            </td>
+                            <td>15</td>
+                            <td>Govind</td>
+                            <td>Ground Floor</td>
+                            <td>Laxmi Nagar</td>
+                            <td>Public Transport</td>
+                            <td>Deisgner</td>
+                            <td>5 years</td>
+                            <td>HTML</td>
+                            <td>Average</td>
+                        </tr>
+                        <tr class="subrow">
+                            <td>1</td>
+                            <td colspan="9">We weren't that pleased at the halfway stage. We felt we were 15-20 runs below par. We put ourselves in a really good position to get 340, but we kept losing wickets. But when you post over 300.  </td>
+                        </tr>
+                        <tr class="subrow">
+                            <td>2</td>
+                            <td colspan="9">ou're always in with a shout. Stokes had a good partnership with Joe, and then Moeen Ali was unlucky to get out. We gave ourselves every chance to post a big score but it didn't come off. Our players said that.</td>                
+                        </tr>             
+                    </tbody>
 
-    </table>
+                </table>
+                </div>
+            </div>
+            <!-- End Toggled Table -->
+        </div>
+    </div>
 </div>
-<!-- End Form Validaton -->
 
-    
 
-   
 
 
 

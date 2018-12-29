@@ -15,9 +15,7 @@ html{font-size: 14px;}
 }
 
 /*-------| Navigation |--------*/
-nav > ul > li > a{
-	 padding: 16px 20px;
-}
+.nav > ul > li > a { padding: 12px 22px;}
 
  /*------| Columns |-----*/
  .col-sm-12, .col-sm-9, .col-sm-6, .col-sm-3{width:calc(100% - 20px); padding:10px; float:none;}

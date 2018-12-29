@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Pick Color</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<div class="row">
+
+    <!-- Start First Accordion Section -->
+    <div class="col-sm-6">
+        <div class="FirstAccord">
+            <a href="javascript:void(0)" data-acc="acc-1" class="accLink">First Accordion</a>
+            <div class="accWrapper" id="acc-1">
+                <h2>First Accordion</h2>
+                <p>Through our partnership with Infosys and with this Zero Distance Initiative, we were able to solve this complex problem that the utility’s been facing for some time... Beyond the millions of dollars that we're going to be saving here at APS, the benefit is truly with our end customers in having a system that's going to be flexible and nimble and meet all of their needs.</p>
+            </div>
+
+            <a href="javascript:void(0)" data-acc="acc-2" class="accLink">Second Accordion</a>
+            <div class="accWrapper" id="acc-2">
+                <h2>Second Accordion</h2>
+                <p>Infosys and APS jointly developed a parallel sustainability program to independently and automatically test a new product release without impacting the current product. This enabled the customer to save millions and accelerate to market.</p>
+            </div>
+
+            <a href="javascript:void(0)" data-acc="acc-3" class="accLink">Third Accordion</a>
+            <div class="accWrapper" id="acc-3">
+                <h2>Third Accordion</h2>
+                <p>We started hoping to mine our 8,000+ current client projects for innovation,” said Ravi Kumar S., EVP & Chief Delivery Officer for Infosys, a leading tech consulting and IT services firm. “After looking at 4 or 5, we got excited because we’d found numerous ways to improve client outcomes,” he continued. “Also, we realized it would take a decade to review the rest of them.</p>
+            </div>
+
+            <a href="javascript:void(0)" data-acc="acc-4" class="accLink">Fourth Accordion</a>
+            <div class="accWrapper" id="acc-4">
+                <h2>Fourth Accordion</h2>
+                <p>One of my extraordinary early findings was the lack of initiative, lack of proactivity in the services industry. Not only at Infosys, but everywhere… So I, along with a few key colleagues, worked with a handful of projects for a few weeks.... And the result was a simple five point pattern that could bring immediate as well as fundamental improvement to any of our projects.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End First Accordion Section -->
+
+    <!-- Start Second Accordion Section -->
+    <div class="col-sm-6">
+        <div class="SecondAccord">
+            <a href="javascript:void(0)" class="accord">First Accordion</a>
+            <div class="accWrap">
+                <h2>First Accordion</h2>
+                <p>Through our partnership with Infosys and with this Zero Distance Initiative, we were able to solve this complex problem that the utility’s been facing for some time... Beyond the millions of dollars that we're going to be saving here at APS, the benefit is truly with our end customers in having a system that's going to be flexible and nimble and meet all of their needs.</p>
+            </div>
+
+            <a href="javascript:void(0)" class="accord">Second Accordion</a>
+            <div class="accWrap">
+                <h2>Second Accordion</h2>
+                <p>Infosys and APS jointly developed a parallel sustainability program to independently and automatically test a new product release without impacting the current product. This enabled the customer to save millions and accelerate to market.</p>
+            </div>
+
+            <a href="javascript:void(0)" class="accord">Third Accordion</a>
+            <div class="accWrap">
+                <h2>Third Accordion</h2>
+                <p>We started hoping to mine our 8,000+ current client projects for innovation,” said Ravi Kumar S., EVP & Chief Delivery Officer for Infosys, a leading tech consulting and IT services firm. “After looking at 4 or 5, we got excited because we’d found numerous ways to improve client outcomes,” he continued. “Also, we realized it would take a decade to review the rest of them.</p>
+            </div>
+
+            <a href="javascript:void(0)" class="accord">Fourth Accordion</a>
+            <div class="accWrap">
+                <h2>Fourth Accordion</h2>
+                <p>One of my extraordinary early findings was the lack of initiative, lack of proactivity in the services industry. Not only at Infosys, but everywhere… So I, along with a few key colleagues, worked with a handful of projects for a few weeks.... And the result was a simple five point pattern that could bring immediate as well as fundamental improvement to any of our projects.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Second Accordion Section -->
+
+   
+</div>
+<!-- end row div -->
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

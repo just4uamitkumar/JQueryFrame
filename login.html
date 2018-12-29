@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=4.0, user-scalable=yes">
+<link type="image/x-icon" rel="shortcut icon" href="./images/favicon.ico">
+<link rel="stylesheet" href="./css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/loginStyle.css">
+
+<!-- For progressively larger displays -->
+<link rel="stylesheet" media="only screen and (max-width: 992px)" href="./css/992.css">
+<link rel="stylesheet" media="only screen and (max-width: 768px)" href="./css/768.css">
+
+</head>
+
+<body>
+
+<div class="loginWrap">
+  <div class="loginCont">
+    <h4>Modern CSS and JQuery</h4>
+    <form id="loginForm" name="loginForm" action="index.shtml" onsubmit="return(login());">
+      <div class="form-group">                      
+        <input type="text" name="username" placeholder="Enter UserName" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter UserName'">                    
+      </div>
+      <div class="form-group">
+        <i class="fa fa-eye" id="showPass"></i>       
+        <input type="password" name="password" id="password" placeholder="Enter Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Password'">                    
+      </div>
+      <div class="form-group">            
+              <button type="submit">Login</button>              
+          </div>
+    </form>
+  </div>
+</div>
+
+
+<!--Start all Javascript -->
+<script src="./js/jquery-3.2.1.min.js"></script>
+
+<script>
+  function login (){
+    var username = document.loginForm.username;
+    var passcode = document.loginForm.password;
+
+    if( username.value == "" ){
+          alert( "Please provide user name!" );
+          username.focus() ;
+          return false;
+    }    
+
+    if( passcode.value == "" ){
+        alert( "Please Enter Password!" );
+        passcode.focus() ;
+        return false;
+    }
+
+    if( passcode.value != "amit" && username.value != "amit" ){
+        alert( "You Entered wrong Username/Password" );
+        passcode.focus() ;
+        username.focus() ;
+        return false;
+    }
+
+    return( true ); 
+}
+
+(function (){ 
+
+   document.getElementById('password').oninput = function(){       
+        document.getElementById('showPass').classList.add('show');     
+    }
+    
+
+    // $('#showPass').onmousedown = function() {
+    //    if ( document.getElementById('password').value.length > 0) {       
+    //         document.getElementById('password').type = "text";        
+    //    } 
+    //  }
+
+    // document.getElementById('showPass').onmouseup = function(){
+    //     document.getElementById('password').type = "password";
+    // }
+
+    $('#showPass')
+    .mouseup(function() {
+      if ( $('#password').val().length > 0) {       
+            $('#password').type = "text";        
+       }    
+    })
+    .mousedown(function() {
+      $('#password').type = "password"; 
+    });
+}());
+</script>
+
+
+</body>
+</html>
+
+

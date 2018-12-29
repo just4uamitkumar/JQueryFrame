@@ -24,6 +24,15 @@
           <i class="fa fa-bell" aria-hidden="true"></i>
           <span>Table</span>
       </a>
+      <a href="watch.shtml" class="level1">
+          <i class="fa fa-bell" aria-hidden="true"></i>
+          <span>Clock</span>
+      </a>
+
+      <a href="modal.shtml" class="level1">
+          <i class="fa fa-bell" aria-hidden="true"></i>
+          <span>Modal</span>
+      </a>
       
     </div>
   </div>

@@ -1,0 +1,27 @@
+* { margin:0; padding:0;}
+/*------| HTML |-----*/
+html { font-size:16px;}
+body { font:100% Myriad Pro, Arial, Sans-serif; color:#333; background:#efefef;
+  line-height:1.5;}
+
+/*--------| Login  |-------*/
+.loginWrap{background: #3b3e4b; color: #fff; position: fixed; width: 100%; height: 100%;}
+.loginCont{position: absolute; padding:20px; top:50%; background: rgba(255,255,255,0.1);
+transform: translate(-50%, -50%); width: 340px; left: 50%; top:50%; }
+.loginCont h4{ font-size: 1.8rem; text-align: center; margin-bottom: 40px}
+.loginCont .form-group{ margin-bottom: 20px; position: relative;}
+.loginCont  .form-group i{ position: absolute; right: 5px; color: #8e8e8e; top: 8px;
+  cursor: pointer; } 
+.loginCont .form-group input{background: transparent;  width: calc(100% - 40px);  border-width: 0 0 1px;
+  border-color: #e0e0e0;  color: #bdbdbd;  padding: 11px 40px 11px 0;}
+.loginCont .form-group input:focus{ border-width: 0 0 1px; border-color:#bdbdbd; outline: 0; }
+.loginCont .form-group button{color: #fff;  background-color: #26a69a; text-align: center;
+  letter-spacing: .5px; margin: 10px 0 0; text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  font-size: 0.8rem; cursor: pointer; border:0; width: 100%; padding: 13px 10px; border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); 
+  transition: .2s ease-out;}
+.loginCont .form-group button:focus{outline: 0;}
+.loginCont .form-group button:hover{background-color: #2e7972;}
+.loginCont .form-group ::placeholder { color: #a5a5a5; font-size: 0.9rem; }
+.loginCont .form-group :-ms-input-placeholder {color: #a5a5a5; font-size: 0.9rem;}
+.loginCont .form-group ::-ms-input-placeholder {color: #a5a5a5; font-size: 0.9rem;}

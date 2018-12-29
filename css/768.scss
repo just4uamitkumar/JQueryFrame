@@ -2,13 +2,13 @@
 html{font-size: 12px;}
 
 
-/*-------| Tabs |--------*/
-.tabs ul li a{
-    padding: 9px 18px;
-}
 
 /*-------| Navigation |--------*/
-nav > ul > li {
-    display: block;
-}
+.nav {border-top: 1px solid rgba(255,255,255,0.2); clear: left; float: none; margin: 0;}
+.nav > ul > li > a {padding: 11px 22px;}
+.sidebar-toggle {padding: 12px 15px;}
+
+
+/*-------| Tabs |--------*/
+.tabs ul li a{padding: 9px 18px;}
 

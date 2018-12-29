@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<div class="row">
+    <!-- Start Analog Clock -->
+    <div class="col-sm-12">
+        <div class="contentWrap">
+            <div class="colorDocker">
+                  <h4 class="left">COLOR KEY: Sample Utility Bill</h4>
+                  <button class="btn right clearAllBtn disable">
+                    <img src="./images/clearAllBtn.png" alt="Celar All">
+                  </button>
+                  <div class="table-responsive">
+                    <table cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>Color</th>
+                          <th>Utility Bill Terms</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <img src="./images/downArrow.png" alt="Pick Color"/>
+                            </button>
+                          </td>                      
+                          <td>Summary of Charges</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                             <button class="btn pickColorBtn">
+                              <img src="./images/downArrow.png" alt="Pick Color"/>
+                            </button>
+                          </td>                      
+                          <td>Total Amount Due</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                             <button class="btn pickColorBtn">
+                              <img src="./images/downArrow.png" alt="Pick Color"/>
+                            </button>
+                          </td>                     
+                          <td>Account number</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <img src="./images/downArrow.png" alt="Pick Color"/>
+                            </button>
+                          </td>                     
+                          <td>Days Billed</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <img src="./images/downArrow.png" alt="Pick Color"/>
+                            </button>
+                          </td>                    
+                          <td>Usage Billed for kWh, therms, gallons</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                             <button class="btn pickColorBtn">
+                              <img src="./images/downArrow.png" alt="Pick Color"/>
+                            </button>
+                          </td>                      
+                          <td>Cost per Unit for kWh, therms, gallons</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <img src="./images/downArrow.png" alt="Pick Color"/>
+                            </button>
+                          </td>
+                          <td>Base Rate for Electricity, Natural Gas, and Water</td>
+                        </tr> 
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+            <!-- End colorDocker -->
+        </div> 
+    </div>
+    <!-- End Analog Clock  -->
+
+</div>
+<!-- end row div -->
+
+<!-- Start Select Color -->
+<div class="modal sizeI hide" id="chooseColor">
+  <button type="button" data-dismiss='modal' class="btn closeBtn">
+    <img src="./images/clostBtn.png" class="" alt="Close">
+  </button>  
+  <div class="modalBody">
+    <p class="tagline">SELECT A <span>COLOR:</span></p>
+    <ul class="colorListA">
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>  
+</div>
+<!-- End Select Color -->
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

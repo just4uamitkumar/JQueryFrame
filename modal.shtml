@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Modal</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<div class="row">
+    <!-- Start Analog Clock -->
+    <div class="col-sm-6">
+        <div class="contentWrap clearfix">
+            <div class="colorDocker">
+                  <h4 class="left">COLOR KEY</h4>
+                  <button class="btn right btn-warning disable clearAll">Clear All</button>
+                  <div class="table-responsive">
+                    <table cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>Color</th>
+                          <th>Sample Colors </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </td>                      
+                          <td>Sample Color 1</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                             <button class="btn pickColorBtn">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </td>                      
+                          <td>Sample Color 2</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                             <button class="btn pickColorBtn">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </td>                     
+                          <td>Sample Color 3</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </td>                     
+                          <td>Sample Color 4</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </td>                    
+                          <td>Sample Color 5</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                             <button class="btn pickColorBtn">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </td>                      
+                          <td>Sample Color 6</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </td>
+                          <td>Sample Color 7</td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="color"></div>
+                            <button class="btn pickColorBtn">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </td>
+                          <td>Sample Color 8</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+            <!-- End colorDocker -->
+        </div> 
+    </div>
+    <!-- End Analog Clock  -->
+
+</div>
+<!-- end row div -->
+
+<!-- Start Select Color -->
+<div class="modal bounceIn hide" id="chooseColor">
+  <button type="button" data-dismiss='modal' class="btn closeBtn">
+    <i class="fa fa-times"></i>
+  </button>
+  <div class="modalHeader">
+    <h4>SELECT A COLOR:</h4>
+  </div>  
+  <div class="modalBody">
+    <ul class="colorListA">
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>  
+</div>
+<!-- End Select Color -->
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

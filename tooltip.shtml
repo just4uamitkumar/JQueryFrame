@@ -18,15 +18,17 @@
 
     <!-- Start Tooltip -->
     <div class="col-sm-6">
-        <div class="tipDiv">
-            <ul>
-                <li><a href="javascript:void(0);" data-placement="top" data-title="Tooltip to Top">Tooltip to Top</a></li>
-                <li><a href="javascript:void(0);" data-placement="right" data-title="Tooltip to Right">Tooltip to Right</a></li>
-                <li><a href="javascript:void(0);" data-placement="bottom" data-title="Tooltip to Bottom">Tooltip to Bottom</a></li>      
-                <li><a href="javascript:void(0);" data-placement="left" data-title="Tooltip to Left">Tooltip to Left</a></li>
-                
-            </ul>
-        </div>      
+        <div class="contentWrap">
+            <div class="tipDiv">
+                <ul>
+                    <li><a href="javascript:void(0);" data-placement="top" data-title="Tooltip to Top">Tooltip to Top</a></li>
+                    <li><a href="javascript:void(0);" data-placement="right" data-title="Tooltip to Right">Tooltip to Right</a></li>
+                    <li><a href="javascript:void(0);" data-placement="bottom" data-title="Tooltip to Bottom">Tooltip to Bottom</a></li>      
+                    <li><a href="javascript:void(0);" data-placement="left" data-title="Tooltip to Left">Tooltip to Left</a></li>
+                    
+                </ul>
+            </div> 
+        </div>    
     </div>
     <!-- End Tooltip -->
 

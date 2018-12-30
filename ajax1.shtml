@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>Ajax Example 1</title>
+
+<!--| Header File Include Here |-->
+<!--#include virtual="./default/header.shtml" -->
+<!--| Header File End Here |-->
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/sidebar.shtml" -->
+<!--| Sidebar File End Here |-->
+
+<h1></h1>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentWrap">
+            
+        </div>
+    </div>
+    
+
+    <!-- Start Analog Clock -->
+    <div class="col-sm-6">
+        <div class="contentWrap">
+           
+        </div>
+    </div>
+    <!-- End Analog Clock -->  
+
+</div>
+<!-- end row div -->
+
+
+<!--| Sidebar File Include Here |-->
+<!--#include virtual="./default/footer.shtml" -->
+<!--| Sidebar File End Here |-->

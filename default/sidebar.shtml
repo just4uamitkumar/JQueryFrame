@@ -11,6 +11,16 @@
           <a href="accordion.shtml" class="level2">Accordion</a>
           <a href="ResponsiveTabs.shtml" class="level2">Responsive Tabs</a>
       </div>
+
+      <a class="level1 has-child" href="javascript:void(0)">
+        <i class="fa fa-bell" aria-hidden="true"></i><span>Ajax</span>
+      </a>
+      <div class="collapse">
+          <a href="ajax1.shtml" class="level2">Ajax Example 1</a>
+          <a href="ajax2.shtml" class="level2">Ajax Example 2</a>
+          <a href="ajax3.shtml" class="level2">Ajax Example 3</a>
+      </div>
+
       <a href="dashSlider.shtml" class="level1">
         <i class="fa fa-bell" aria-hidden="true"></i><span>DashBoard Slider</span>
       </a>    

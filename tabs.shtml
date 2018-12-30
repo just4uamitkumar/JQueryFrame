@@ -115,6 +115,28 @@
 </div>
 <!-- end row div -->
 
+<script>
+    $(document).ready(function(){        
+        //Tab Code
+        $('.tabs a').click(function(){
+            var tab_id = $(this).attr('tab-id');
+            
+            $('.tabs a').removeClass('active');
+            $('.tabWrapper').removeClass('active');
+            $(this).addClass('active');
+            $('#'+tab_id).addClass('active');
+        });
+
+        //SelectWrapper
+        $('.tabSelect').change(function(){
+            $(this).addClass('active');
+            var thisVal = $(this).val();
+            $('.tabContainer .tabWrap').removeClass('active');
+            $("#"+thisVal).addClass('active');   
+        });
+    });
+</script>
+
 
 <!--| Sidebar File Include Here |-->
 <!--#include virtual="./default/footer.shtml" -->

@@ -17,33 +17,34 @@
 <div class="row">
     <!-- Start Analog Clock -->
     <div class="col-sm-6">
-        <div class="ghadi">
-            <div class="core"></div>
-            <div class="second" id="second"></div>
-            <div class="minute" id="minute"></div>
-            <div class="ghanta" id="ghanta"></div>
-            <div class="digital"></div>
-        </div> 
+        <div class="contentWrap">
+            <div class="ghadi">
+                <div class="core"></div>
+                <div class="second" id="second"></div>
+                <div class="minute" id="minute"></div>
+                <div class="ghanta" id="ghanta"></div>
+                <div class="digital"></div>
+            </div> 
+        </div>
     </div>
     <!-- End Analog Clock  -->
 
     <!-- Start Analog Clock -->
     <div class="col-sm-6">
-        <div id="clock">
-            <div id="hour" style="transform: rotate(334.5deg);"><img src="http://demo.web3designs.com/images/hourhand.png"></div>
-            <div id="minute" style="transform: rotate(54deg);"><img src="http://demo.web3designs.com/images/minhand.png"></div>
-            <div id="second" style="transform: rotate(108deg);"><img src="http://demo.web3designs.com/images/sechand.png"></div>
+        <div class="contentWrap">
+            <div id="clock">
+                <div id="hour" style="transform: rotate(334.5deg);"><img src="http://demo.web3designs.com/images/hourhand.png"></div>
+                <div id="minute" style="transform: rotate(54deg);"><img src="http://demo.web3designs.com/images/minhand.png"></div>
+                <div id="second" style="transform: rotate(108deg);"><img src="http://demo.web3designs.com/images/sechand.png"></div>
+            </div>
         </div>
-
     </div>
-    <!-- End Analog Clock -->
-
-  
-
-   
+    <!-- End Analog Clock -->  
 
 </div>
 <!-- end row div -->
+
+<script src="./js/watch.js"></script>
 
 
 <!--| Sidebar File Include Here |-->

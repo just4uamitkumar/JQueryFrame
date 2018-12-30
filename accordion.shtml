@@ -84,6 +84,8 @@
 </div>
 <!-- end row div -->
 
+<script src="./js/accord.js"></script>
+
 
 <!--| Sidebar File Include Here |-->
 <!--#include virtual="./default/footer.shtml" -->

@@ -64,17 +64,12 @@
             </div>
         </div>
     </div>
-    <!-- End First Accordion Section -->
-
-    <!-- Start Second Accordion Section -->
-    <div class="col-sm-12">
-        
-    </div>
-    <!-- End Second Accordion Section -->
-
-   
+    <!-- End First Accordion Section -->   
 </div>
 <!-- end row div -->
+
+
+<script src="./js/restabs.js"></script>
 
 
 <!--| Sidebar File Include Here |-->

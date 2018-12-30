@@ -32,17 +32,17 @@
     </div>
     <!-- End Tooltip -->
 
-    <!-- Start DashBoard Slider -->
-    <div class="col-sm-6">
-        
-    </div>
-    <!-- End DashBoard Slider -->
-
    
 </div>
 <!-- end row div -->
 
+<script src="./js/tooltip.js"></script>
+<script>
+    $(document).ready(function(){
+       $('a[data-title]').tooltip();
+    });
 
+</script>
 <!--| Sidebar File Include Here |-->
 <!--#include virtual="./default/footer.shtml" -->
 <!--| Sidebar File End Here |-->

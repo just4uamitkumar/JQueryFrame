@@ -15,23 +15,85 @@
 <h1></h1>
 
 <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-4">
         <div class="contentWrap">
-            
+            <ul class="list-group">
+            </ul>
         </div>
     </div>
     
 
     <!-- Start Analog Clock -->
-    <div class="col-sm-6">
+    <div class="col-sm-8">
         <div class="contentWrap">
-           
+           <div class="ajaxCont"></div>
         </div>
     </div>
     <!-- End Analog Clock -->  
 
 </div>
 <!-- end row div -->
+
+<script>
+    $(function(){
+        var $listGroup = $('.list-group');
+        function getPost(){
+            
+
+            $.ajax({
+                url:'https://jsonplaceholder.typicode.com/posts',
+                method:'GET',
+                success:function(data){
+                    var newData = data.slice(0, 10);
+                    var listItem = [];
+                    newData.forEach(function(newItem){
+
+                        // $('<li />', {
+                        //     class:'list-group-item',
+                        //     'data-id': newItem.id,
+                        //     html:newItem.title
+                        // }).appendTo($listGroup);
+
+                      var $li =  $('<li />', {
+                                    class:'list-group-item',
+                                    'data-id': newItem.id,
+                                    html:newItem.title
+                                });
+
+                      listItem.push($li);
+                    });
+
+                    $listGroup.append(listItem)                    
+
+                },
+                error:function(err){
+                    console.log('err')
+                }
+            });
+        } 
+
+    getPost();
+
+    $listGroup.on('click', '.list-group-item', function(e){
+        //alert();
+        //console.log(e.target);
+        var id = $(e.target).attr('data-id');
+        $.ajax({
+            url:'https://jsonplaceholder.typicode.com/posts/' + id,
+            method:'GET',
+            success:function(data){
+                //console.log('data', data);
+                $('.ajaxCont').html(data.body);
+            },
+            error:function(){
+                
+            }
+        });
+    });
+
+               
+    });
+</script>
 
 
 <!--| Sidebar File Include Here |-->
